@@ -8,7 +8,7 @@ Python + GitHub Actions repo that builds a tested v2ray subscription (`arashonli
 3. Repo **Settings → Actions → General → Workflow permissions** → *Read and write*.
 4. Run **Actions → Update configs → Run workflow** once; after that it runs every 12 h.
 
-Subscription URL (raw): `https://raw.githubusercontent.com/<user>/<repo>/main/arashonline.txt`
+Subscription URL (raw): `[https://raw.githubusercontent.com/<user>/<repo>/main/arashonline.txt](https://raw.githubusercontent.com/cyrusalbert/ArashOnline-Public/main/arashonline.txt)`
 
 ## Pipeline
 1. Fetch + decode all subscriptions (vmess / vless / trojan / ss), dedupe.
